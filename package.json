@@ -1,0 +1,10 @@
+{
+  "name": "markdown",
+  "version": "1.0.0",
+  "description": "markdown",
+  "author": "jimmy",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}

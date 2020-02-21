@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Markdown</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<form>
+    <p>Input Markdown Text Here</p>
+    <p><textarea id="input_txt">
+Hello there
+
+How are you? What's going on?
+
+####### Another Header
+
+This is a paragraph [with an inline link](http://google.com). Neat, eh?
+
+## This is a header [with a link](http://yahoo.com)</textarea></p>
+    <p>Press Convert Button Below to Convert Markdown to HTML!</p>
+    <p><textarea id="output_html"></textarea></p>
+</form>
+<button id="btn">Convert!</button>
+<script src="markdown.js"></script>
+</body>
+</html>
